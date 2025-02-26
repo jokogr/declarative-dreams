@@ -8,8 +8,8 @@ I have received the following requirements:
 
 - X230 (to-do)
 - No DM required (to-do)
-- btrfs (to-do)
-- luks partitioning (to-do)
+- btrfs
+- luks partitioning
 - suspend-then-hybernate (to-do)
 - wake-up from swap file (to-do)
 - Packages
@@ -79,6 +79,12 @@ I have received the following requirements:
 
    ```
    vi declarative-dreams-main/id_rsa.pub
+   ```
+
+1. Write the LUKS password to `/tmp/secret.key`, e.g.:
+
+   ```
+   echo trololo > /tmp/secret.key
    ```
 
 1. Run nixos-facter:
