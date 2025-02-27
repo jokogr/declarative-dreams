@@ -31,11 +31,14 @@
                 pkgs.gitMinimal
               ];
 
+              programs.zsh.enable = true;
+
               services.openssh.enable = true;
 
               users.users.bob = {
                 isNormalUser = true;
                 extraGroups = [ "wheel" ];
+                shell = pkgs.zsh;
               };
 
               users.users.root.openssh.authorizedKeys.keyFiles = [

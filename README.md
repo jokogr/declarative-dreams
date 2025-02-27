@@ -16,7 +16,7 @@ I have received the following requirements:
   - i3blocks (to-do)
   - sway (to-do)
   - terminator (to-do)
-  - zsh (to-do)
+  - zsh
   - dunst (to-do)
   - wmenu (to-do)
   - wofi (to-do)
