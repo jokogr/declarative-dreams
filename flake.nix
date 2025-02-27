@@ -17,7 +17,7 @@
         modules = [
           disko.nixosModules.disko
           (
-            { pkgs, ... }:
+            { config, pkgs, ... }:
             {
               imports = [
                 ./disk-config.nix
@@ -30,6 +30,8 @@
                 pkgs.curl
                 pkgs.gitMinimal
               ];
+
+              programs.sway.enable = true;
 
               programs.zsh.enable = true;
 

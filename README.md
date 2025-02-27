@@ -7,14 +7,14 @@ A Git repository to help a friend set up NixOS on his laptop.
 I have received the following requirements:
 
 - X230 (to-do)
-- No DM required (to-do)
+- No DM required
 - btrfs
 - luks partitioning
 - suspend-then-hybernate
 - wake-up from swap file
 - Packages
   - i3blocks (to-do)
-  - sway (to-do)
+  - sway
   - terminator (to-do)
   - zsh
   - dunst (to-do)
