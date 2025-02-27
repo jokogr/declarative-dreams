@@ -33,6 +33,11 @@
 
               services.openssh.enable = true;
 
+              users.users.bob = {
+                isNormalUser = true;
+                extraGroups = [ "wheel" ];
+              };
+
               users.users.root.openssh.authorizedKeys.keyFiles = [
                 ./id_rsa.pub
               ];
