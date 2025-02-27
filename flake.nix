@@ -2,12 +2,15 @@
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
   inputs.disko.url = "github:nix-community/disko";
   inputs.disko.inputs.nixpkgs.follows = "nixpkgs";
+  inputs.home-manager.url = "github:nix-community/home-manager/release-24.11";
+  inputs.home-manager.inputs.nixpkgs.follows = "nixpkgs";
   inputs.nixos-facter-modules.url = "github:numtide/nixos-facter-modules";
 
   outputs =
     {
       nixpkgs,
       disko,
+      home-manager,
       nixos-facter-modules,
       ...
     }:
@@ -16,6 +19,7 @@
         system = "x86_64-linux";
         modules = [
           disko.nixosModules.disko
+          home-manager.nixosModules.home-manager
           (
             { config, pkgs, ... }:
             {
@@ -30,6 +34,10 @@
                 pkgs.curl
                 pkgs.gitMinimal
               ];
+
+              home-manager.useGlobalPkgs = true;
+              home-manager.useUserPackages = true;
+              home-manager.users.bob = import ./home.nix;
 
               programs.sway.enable = true;
 
