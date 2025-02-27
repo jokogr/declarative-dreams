@@ -17,7 +17,7 @@ I have received the following requirements:
   - sway
   - terminator
   - zsh
-  - dunst (to-do)
+  - dunst
   - wmenu (to-do)
   - wofi (to-do)
   - swayidle (to-do)
