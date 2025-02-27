@@ -3,6 +3,8 @@
 
   programs.terminator.enable = true;
 
+  programs.wofi.enable = true;
+
   services.dunst.enable = true;
 
   services.swayidle.enable = true;

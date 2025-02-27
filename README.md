@@ -19,7 +19,7 @@ I have received the following requirements:
   - zsh
   - dunst
   - wmenu (to-do)
-  - wofi (to-do)
+  - wofi
   - swayidle
   - grimshot (to-do)
   - wtype (to-do)
