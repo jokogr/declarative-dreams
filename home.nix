@@ -5,6 +5,8 @@
 
   services.dunst.enable = true;
 
+  services.swayidle.enable = true;
+
   wayland.windowManager.sway = {
     config.terminal = "terminator";
     enable = true;

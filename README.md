@@ -20,7 +20,7 @@ I have received the following requirements:
   - dunst
   - wmenu (to-do)
   - wofi (to-do)
-  - swayidle (to-do)
+  - swayidle
   - grimshot (to-do)
   - wtype (to-do)
   - brightnessctl (to-do)
