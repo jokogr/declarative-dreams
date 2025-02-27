@@ -15,7 +15,7 @@ I have received the following requirements:
 - Packages
   - i3blocks (to-do)
   - sway
-  - terminator (to-do)
+  - terminator
   - zsh
   - dunst (to-do)
   - wmenu (to-do)
