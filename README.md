@@ -18,7 +18,7 @@ I have received the following requirements:
   - terminator
   - zsh
   - dunst
-  - wmenu (to-do)
+  - wmenu
   - wofi
   - swayidle
   - grimshot
