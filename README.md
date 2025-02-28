@@ -11,7 +11,7 @@ I have received the following requirements:
 - btrfs
 - luks partitioning
 - suspend-then-hybernate (to-do)
-- wake-up from swap file (to-do)
+- wake-up from swap file
 - Packages
   - i3blocks (to-do)
   - sway (to-do)

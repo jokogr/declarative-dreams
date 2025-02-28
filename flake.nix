@@ -23,6 +23,7 @@
                 ./disk-config.nix
               ];
 
+              boot.initrd.systemd.enable = true;
               boot.loader.systemd-boot.enable = true;
 
               environment.systemPackages = map pkgs.lib.lowPrio [
