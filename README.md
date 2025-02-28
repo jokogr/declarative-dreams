@@ -26,7 +26,7 @@ I have received the following requirements:
   - brightnessctl
   - mate-polkit (to-do)
   - geoclue
-  - gammastep (to-do)
+  - gammastep
   - Firefox (to-do)
   - code (to-do)
   - remmina (to-do)

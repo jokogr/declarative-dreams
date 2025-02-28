@@ -15,6 +15,11 @@
 
   services.dunst.enable = true;
 
+  services.gammastep = {
+    enable = true;
+    provider = "geoclue2";
+  };
+
   services.swayidle.enable = true;
 
   wayland.windowManager.sway = {
