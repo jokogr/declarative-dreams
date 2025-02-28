@@ -23,7 +23,7 @@ I have received the following requirements:
   - swayidle
   - grimshot
   - wtype
-  - brightnessctl (to-do)
+  - brightnessctl
   - mate-polkit (to-do)
   - geoclue (to-do)
   - gammastep (to-do)
