@@ -30,7 +30,7 @@ I have received the following requirements:
   - Firefox
   - code
   - remmina
-  - clipman (to-do)
+  - clipman
   - podman (to-do)
 
 ## High Level Principles

@@ -21,6 +21,8 @@
 
   programs.wofi.enable = true;
 
+  services.clipman.enable = true;
+
   services.dunst.enable = true;
 
   services.gammastep = {
