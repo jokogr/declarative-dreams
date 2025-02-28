@@ -43,6 +43,8 @@
 
               programs.zsh.enable = true;
 
+              services.geoclue2.enable = true;
+
               services.openssh.enable = true;
 
               users.users.bob = {

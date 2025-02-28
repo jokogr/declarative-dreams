@@ -25,7 +25,7 @@ I have received the following requirements:
   - wtype
   - brightnessctl
   - mate-polkit (to-do)
-  - geoclue (to-do)
+  - geoclue
   - gammastep (to-do)
   - Firefox (to-do)
   - code (to-do)
