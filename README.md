@@ -27,7 +27,7 @@ I have received the following requirements:
   - mate-polkit (to-do)
   - geoclue
   - gammastep
-  - Firefox (to-do)
+  - Firefox
   - code (to-do)
   - remmina (to-do)
   - clipman (to-do)

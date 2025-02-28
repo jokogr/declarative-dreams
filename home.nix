@@ -9,6 +9,8 @@
 
   home.stateVersion = "24.11";
 
+  programs.firefox.enable = true;
+
   programs.terminator.enable = true;
 
   programs.wofi.enable = true;
