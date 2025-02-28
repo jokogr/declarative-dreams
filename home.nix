@@ -3,6 +3,7 @@
   home.packages = with pkgs; [
     sway-contrib.grimshot
     wmenu
+    wtype
   ];
 
   home.stateVersion = "24.11";

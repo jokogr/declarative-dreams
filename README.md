@@ -22,7 +22,7 @@ I have received the following requirements:
   - wofi
   - swayidle
   - grimshot
-  - wtype (to-do)
+  - wtype
   - brightnessctl (to-do)
   - mate-polkit (to-do)
   - geoclue (to-do)
