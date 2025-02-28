@@ -21,7 +21,7 @@ I have received the following requirements:
   - wmenu (to-do)
   - wofi
   - swayidle
-  - grimshot (to-do)
+  - grimshot
   - wtype (to-do)
   - brightnessctl (to-do)
   - mate-polkit (to-do)

@@ -1,4 +1,9 @@
+{ pkgs, ... }:
 {
+  home.packages = with pkgs; [
+    sway-contrib.grimshot
+  ];
+
   home.stateVersion = "24.11";
 
   programs.terminator.enable = true;
