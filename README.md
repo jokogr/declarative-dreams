@@ -10,7 +10,7 @@ I have received the following requirements:
 - No DM required (to-do)
 - btrfs
 - luks partitioning
-- suspend-then-hybernate (to-do)
+- suspend-then-hybernate
 - wake-up from swap file
 - Packages
   - i3blocks (to-do)

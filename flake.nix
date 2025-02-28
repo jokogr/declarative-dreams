@@ -38,6 +38,10 @@
               ];
 
               system.stateVersion = "24.11";
+
+              systemd.sleep.extraConfig = ''
+                HibernateDelaySec=7200
+              '';
             }
           )
           nixos-facter-modules.nixosModules.facter
