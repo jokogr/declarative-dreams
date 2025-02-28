@@ -2,6 +2,7 @@
 {
   home.packages = with pkgs; [
     brightnessctl
+    remmina
     sway-contrib.grimshot
     wmenu
     wtype

@@ -29,7 +29,7 @@ I have received the following requirements:
   - gammastep
   - Firefox
   - code
-  - remmina (to-do)
+  - remmina
   - clipman (to-do)
   - podman (to-do)
 
