@@ -13,6 +13,11 @@
 
   programs.terminator.enable = true;
 
+  programs.vscode = {
+    enable = true;
+    package = pkgs.vscodium;
+  };
+
   programs.wofi.enable = true;
 
   services.dunst.enable = true;

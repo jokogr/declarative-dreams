@@ -28,7 +28,7 @@ I have received the following requirements:
   - geoclue
   - gammastep
   - Firefox
-  - code (to-do)
+  - code
   - remmina (to-do)
   - clipman (to-do)
   - podman (to-do)
