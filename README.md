@@ -31,7 +31,7 @@ I have received the following requirements:
   - code
   - remmina
   - clipman
-  - podman (to-do)
+  - podman
 
 ## High Level Principles
 

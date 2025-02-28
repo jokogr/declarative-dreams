@@ -49,13 +49,18 @@
 
               users.users.bob = {
                 isNormalUser = true;
-                extraGroups = [ "wheel" ];
+                extraGroups = [
+                  "podman"
+                  "wheel"
+                ];
                 shell = pkgs.zsh;
               };
 
               users.users.root.openssh.authorizedKeys.keyFiles = [
                 ./id_rsa.pub
               ];
+
+              virtualisation.podman.enable = true;
 
               system.stateVersion = "24.11";
 
